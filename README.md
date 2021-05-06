@@ -10,5 +10,5 @@
 
 杀软进程数据存放在av.json
 
-目前正在收集杀软进程中，欢迎前往[源repo](https://github.com/r00tSe7en/get_AV/blob/master/README.md)提交补充
+目前正在收集杀软进程中，欢迎前往[源repo](https://github.com/r00tSe7en/get_AV/)提交补充
 
