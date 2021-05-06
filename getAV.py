@@ -13,10 +13,9 @@ def main():
 
 
 def checkAv(tasklist):
-    result = []
-    for tmp in avList.keys():
-        if tmp in tasklist:
-            result.append(tmp)
+    tasklist = tasklist.splitlines()
+    tasklist = set(map(lambda x: x.split()[0] if x != "" else "", tasklist))
+    result = tasklist.intersection(set(avList.keys()))
     return result
 
 
